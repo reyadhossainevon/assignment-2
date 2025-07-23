@@ -15,10 +15,11 @@
 }
 
 /* Shared text color */
-.semi-bold{
+.semi-bold {
     color: rgba(137, 135, 161, 1);
 }
-.bold{
+
+.bold {
     color: #252432;
 }
 
@@ -41,9 +42,10 @@
     text-decoration: none;
     align-items: center;
     font-size: small;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
 }
 
@@ -63,3 +65,39 @@ nav ul li a{
 }
 
 /* Banner Section */
+
+.banner-container {
+
+    width: 1140px;
+    height: 461px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    gap: 5px;
+}
+
+.banner-heading {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.banner-text {
+
+    margin-right: 150px;
+    margin-top: 150px;
+
+}
+
+.banner-img {
+    margin-top: 106px;
+}
+
+.banner-text-design {
+    color: #E95A08;
+}
+
+.banner-pera {
+    font-weight: 22px;
+}
