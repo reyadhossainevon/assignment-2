@@ -23,6 +23,10 @@
     color: #252432;
 }
 
+.orange-clr {
+    color: #E95A08
+}
+
 /* Navbar Section */
 .navbar {
 
@@ -100,4 +104,66 @@ nav ul li a {
 
 .banner-pera {
     font-weight: 22px;
+}
+
+/* Our plants sectioin */
+.our-plants {
+
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-plants-text {
+
+    margin-left: 430px;
+    margin-right: 430px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.evon {
+    font-size: 50px;
+}
+
+/* Flower Card Container */
+.flower-card-container {
+    margin-left: 55px;
+    padding: 125px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: -80px;
+    
+}
+.flower-card{
+    height: 484px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #E95A08;
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #7cb1197f;
+        color: #E95A08;
+    }
+
+.price{
+    font-weight: 800;
 }
