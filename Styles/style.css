@@ -136,9 +136,10 @@ nav ul li a {
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin-top: -80px;
-    
+
 }
-.flower-card{
+
+.flower-card {
     height: 484px;
     width: 270px;
     display: flex;
@@ -146,7 +147,8 @@ nav ul li a {
     justify-content: center;
     align-items: center;
 }
-.btn-primary{
+
+.btn-primary {
     width: 100%;
     background-color: #E95A08;
     color: #fff;
@@ -157,21 +159,21 @@ nav ul li a {
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s;
-    }
+}
 
-    .btn-primary:hover {
-        background-color: #7cb1197f;
-        color: #E95A08;
-    }
+.btn-primary:hover {
+    background-color: #7cb1197f;
+    color: #E95A08;
+}
 
-.price{
+.price {
     font-weight: 800;
 }
 
 /* Flower and Plants Lover  */
 
-.lover{
-    
+.lover {
+
     display: flex;
     height: 597px;
     width: 1140px;
@@ -181,21 +183,24 @@ nav ul li a {
     gap: 20px;
 }
 
-.lover-box{
-    
+.lover-box {
+
     margin-right: 200px;
     margin-right: 200px;
 }
-.lover-heading{
+
+.lover-heading {
     font-size: 40px;
     margin-left: 20px;
 
 }
-.lover-para{
+
+.lover-para {
     line-height: 35px;
 
 }
-.love-pic-badge{
+
+.love-pic-badge {
     position: absolute;
     margin-top: 1950px;
     margin-right: 700px;
@@ -203,4 +208,24 @@ nav ul li a {
     right: 0;
     height: 300px;
     width: 300px;
+}
+
+/* Leatest deals section */
+
+.leatest {
+    
+    margin-left: 350px;
+    margin-right: 350px;
+    justify-items: center;
+    margin-top: 50px;
+
+}
+
+.leatest-header{
+    font-size: 40px;
+}
+.leatest-pera {
+    text-align: center;
+    margin-top: 1px;
+    font-size: 17px;
 }
