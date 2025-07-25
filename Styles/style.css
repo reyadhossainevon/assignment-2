@@ -79,7 +79,7 @@ nav ul li a {
    }
    .cart{
     
-    margin-left: 10px;
+    margin-right: 60px;
     align-items: center;
     
    }
@@ -136,11 +136,13 @@ nav ul li a {
         gap: 0;
     }
     .banner-img {
+        
         order: 1;
         margin-top: 0;
         margin-bottom: 20px;
         width: 100%;
         text-align: center;
+        margin: auto;
     }
     .banner-text {
         order: 2;
@@ -148,6 +150,10 @@ nav ul li a {
         margin-right: 0;
         width: 100%;
         text-align: center;
+    }
+    .banner-img-pic{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -194,6 +200,7 @@ nav ul li a {
 
 /* Flower Card Container */
 .flower-card-container {
+    
     margin-left: 55px;
     padding: 125px;
     display: grid;
@@ -234,6 +241,29 @@ nav ul li a {
     font-weight: 800;
 }
 
+@media (max-width: 576px) {
+    .flower-card-container {
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .flower-card {
+        
+        margin: 5px auto;
+        width: 90%;
+        height: auto;
+    }
+    .flower-card-class{
+        width: 100%;
+        height: auto;
+    }
+}
 
 /* Flower and Plants Lover  */
 
@@ -305,6 +335,10 @@ nav ul li a {
         width: 180px;
         display: none;
     }
+    .lover-pic{
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Leatest deals section */
@@ -334,42 +368,28 @@ nav ul li a {
         margin-top: 30px;
         width: 100%;
         padding: 0 10px;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .leatest-header {
         font-size: 28px;
+        text-align: center;
+        margin-bottom: 10px;
     }
     .leatest-pera {
         font-size: 15px;
-        margin-top: 5px;
-    }
-    .plant-box {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        margin-top: 30px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 100%;
-        padding: 0 10px;
-        margin-left: -190px;
-    }
-    .bloom-plant,
-    .ana-plant,
-    .zabo-plant {
-        width: 100%;
-        max-width: 350px;
-        margin: 0 auto;
-        height: 180px;
-        font-size: 16px;
-    }
-    
-    .zabo-plant {
-        height: 180px;
-    }
-    .two {
-        margin-left: 0;
-        grid-template-rows: none;
-        gap: 20px;
+        box-sizing: border-box;
+        padding: 0 5px;
+        overflow-wrap: break-word;
+        margin-right: 10px;
     }
 }
+
 /* plant box */
 .plant-box {
 
@@ -394,7 +414,7 @@ nav ul li a {
     text-align: center;
     align-content: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.444);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -409,7 +429,7 @@ nav ul li a {
     text-align: center;
     align-content: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.455);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -417,7 +437,7 @@ nav ul li a {
 }
 
 .zabo-plant {
-    flex-direction: column;
+    
     background-image: url(../assets/deal-zabo.png);
     height: 423px;
     width: 753px;
@@ -425,7 +445,7 @@ nav ul li a {
     text-align: center;
     align-content: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(3, 0, 0, 0.416);
     background-blend-mode: darken;
 
 }
@@ -440,7 +460,36 @@ nav ul li a {
 .shop-now {
     color: white;
 }
-
+@media (max-width: 576px) {
+    .plant-box {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 30px;
+        width: 100%;
+        padding: 0 10px;
+        margin-left: 20px;
+    }
+    .bloom-plant,
+    .ana-plant,
+    .zabo-plant {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        height: 180px;
+        font-size: 16px;
+    }
+    .bloom-plant{
+        width: 400px;
+    }
+    .zabo-plant {
+        height: 180px;
+    }
+    .two {
+        margin-left: 0;
+        grid-template-rows: none;
+        gap: 20px;
+    }
+}
 
 /* Join and Subscribe part */
 .join {
@@ -500,6 +549,7 @@ nav ul li a {
         padding: 30px 10px;
         background-size: cover;
         background-position: center;
+        
     }
     .join-heading {
         font-size: 32px;
