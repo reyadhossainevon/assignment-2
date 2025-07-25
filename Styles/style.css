@@ -271,8 +271,6 @@ nav ul li a {
     }
 
     .flower-card {
-
-        margin: 5px auto;
         width: 90%;
         height: auto;
     }
@@ -570,11 +568,6 @@ nav ul li a {
     background-color: #c24100;
 
 }
-
-
-
-
-
 .input {
     margin-top: -20px;
 }
@@ -582,7 +575,6 @@ nav ul li a {
 @media (max-width: 576px) {
     .join {
         box-sizing: border-box;
-
         margin-top: 40px;
         height: auto;
         padding: 30px 10px;
@@ -607,19 +599,28 @@ nav ul li a {
     }
 
     .subscribe {
-        width: 100%;
+        width: 50%;
         max-width: 200px;
         height: 40px;
         font-size: 16px;
         margin-top: 15px;
+        
     }
 
     .input {
         margin-top: 0;
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        
+        
     }
 }
 
