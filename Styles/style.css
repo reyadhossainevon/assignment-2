@@ -417,6 +417,7 @@ nav ul li a {
 }
 
 .zabo-plant {
+    flex-direction: column;
     background-image: url(../assets/deal-zabo.png);
     height: 423px;
     width: 753px;
