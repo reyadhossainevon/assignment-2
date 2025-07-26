@@ -319,7 +319,7 @@ nav ul li a {
     right: 0;
     height: 300px;
     width: 300px;
-    animation: spin 2s linear infinite;
+    animation: spin 5s linear infinite;
     }
 
     @keyframes spin {
